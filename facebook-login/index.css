@@ -41,10 +41,9 @@ body {
   border: 0.5px solid #000;
 }
 .content {
-  display: grid;
+  padding-bottom: 20px;
+  padding-top: 20px;
   background-color: #e9ebee;
-  grid-template-columns: repeat(10, 1fr);
-  height: 700px;
 }
 .area {
   grid-column: 1 / -1;
